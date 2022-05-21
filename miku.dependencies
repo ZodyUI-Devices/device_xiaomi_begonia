@@ -6,8 +6,8 @@
     "remote": "github
   },
   {
-    "repository" : "PixelPlusUI-Devices/vendor_redmi_begonia",
-    "target_path": "vendor/redmi/begonia",
+    "repository" : "wzwzx/vendor_xiaomi_begonia",
+    "target_path": "vendor/xiaomi/begonia",
     "branch": "twelve",
     "remote": "github"
   },
@@ -18,8 +18,8 @@
     "remote": "github"
   },
   {
-    "repository" : "7Soldier/vendor_redmi_begonia-ims",
-    "target_path": "vendor/redmi/begonia-ims",
+    "repository" : "wzwzx/vendor_xiaomi_begonia-ims",
+    "target_path": "vendor/xiaomi/begonia-ims",
     "branch": "twelve",
     "remote": "github"
   },
@@ -48,8 +48,8 @@
     "remote": "github"
   },
   {
-    "repository" : "7Soldier/vendor_redmi_begonia-firmware",
-    "target_path": "vendor/redmi/begonia-firmware",
+    "repository" : "wzwzx/vendor_xiaomi_begonia-firmware",
+    "target_path": "vendor/xiaomi/begonia-firmware",
     "branch": "twelve",
     "remote": "github"
   }

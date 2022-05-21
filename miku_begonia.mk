@@ -16,8 +16,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit from begonia device
 $(call inherit-product, device/xiaomi/begonia/device.mk)
 
-# Inherit some common PixelPlusUI stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Miku UI stuff
+$(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
@@ -41,19 +41,13 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# PixelPlusUI Flags
-CUSTOM_BUILD_TYPE := OFFICIAL
-PPUI_MAINTAINER := 7Soldier
-IS_PHONE := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# More
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP  := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := aosp_begonia
+PRODUCT_NAME := miku_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
