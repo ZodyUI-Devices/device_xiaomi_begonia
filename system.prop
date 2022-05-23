@@ -103,6 +103,9 @@ sys.display-size=3840x2160
 # Kernel
 ro.kernel.zio=38,108,105,16
 
+# LLK
+ro.llkd.enable=false
+
 # RIL
 persist.sys.fflag.override.settings_provider_model=false
 
