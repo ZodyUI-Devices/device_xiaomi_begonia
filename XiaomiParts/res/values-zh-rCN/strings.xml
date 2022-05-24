@@ -15,27 +15,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="advanced_settings">BegoniaParts</string>
-    <string name="advanced_settings_summary">Device Specific Customizations</string>
-
+    <string name="advanced_settings_summary">设备特定的自定义</string>
     <string name="display_title">显示</string>
-    
     <string name="vibration_title">震动</string>
     <string name="vibration_strength_title">震动增强</string>
-
     <!-- Category Title -->
     <string name="audio_title">声音修改</string>
     <string name="audio_category">声音</string>
-    
     <!-- Audio amplification -->
     <string name="headphone_gain">耳机增强</string>
     <string name="microphone_gain">麦克风增强</string>
-    
     <!-- Spectrum Profiles -->
     <string name="spectrum_profile_title">性能</string>
     <string name="spectrum_title">性能调整</string>
-    <string name="spectrum_summary">Choose downrate of Schedutil</string>
-    <string name="spectrum_dialogTitle">Choose downrate of Schedutil</string>
-
+    <string name="spectrum_summary">选择调度</string>
+    <string name="spectrum_dialogTitle">选择调度</string>
     <!-- Values for Spectrum Presets -->
     <string name="spectrum_battery">省电 (1k)</string>
     <string name="spectrum_balance">均衡 (10k)</string>
@@ -43,119 +37,102 @@
     <string name="spectrum_game">游戏 (200k)</string>
     <string name="spectrum_powerful">性能 (1m)</string>
     <string name="spectrum_spowerful">极速 (10m)</string>
-
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">默认</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-    
+    <string name="custom_seekbar_default_value_is_set">已设为默认值</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Dirac声音增强</string>
-    <string name="dirac_summary">Optimize audio quality</string>
+    <string name="dirac_summary">优化音质</string>
     <string name="dirac_headset_title">选择耳机类型</string>
-    <string name="dirac_preset_title">选择预设</string>
-
+    <string name="dirac_preset_title">选择配置</string>
     <!-- Dirac settings: Headset types -->
     <string name="dirac_headset_default">默认</string>
-    <string name="dirac_headset_earbuds">Mi Earbuds</string>
-    <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
-    <string name="dirac_headset_piston_1">Mi Piston-1</string>
-    <string name="dirac_headset_general">General</string>
-    <string name="dirac_headset_general_inear">General In-Ear</string>
-    <string name="dirac_headset_piston_basic">Basic Edition</string>
-    <string name="dirac_headset_piston_2">Mi Piston-2</string>
-    <string name="dirac_headset_piston_standard">Standard Edition</string>
-    <string name="dirac_headset_headphone">Mi Headphones</string>
-    <string name="dirac_headset_piston_youth">Youth Edition</string>
-    <string name="dirac_headset_piston_color">Color Edition</string>
-    <string name="dirac_headset_in_ear">Mi In-Ear</string>
-    <string name="dirac_headset_capsule">Mi Capsule</string>
-    <string name="dirac_headset_in_ear_pro">Mi In-Ear Pro</string>
-    <string name="dirac_headset_comfort">Mi Comfort</string>
-    <string name="dirac_headset_reduction_noise">Mi Noise Cancelling Type-C</string>
-    <string name="dirac_headset_cancelling">Mi Noise Cancelling 3.5mm</string>
-    <string name="dirac_headset_half_in_ear">Mi Half In-Ear</string>
-    <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
-    <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
-    <string name="dirac_headset_earphone">Mi Earphones</string>
-
+    <string name="dirac_headset_earbuds">小米耳塞</string>
+    <string name="dirac_headset_in_ear_2013">小米入耳式 (2013)</string>
+    <string name="dirac_headset_piston_1">小米活塞 1</string>
+    <string name="dirac_headset_general">通用</string>
+    <string name="dirac_headset_general_inear">通用入耳式</string>
+    <string name="dirac_headset_piston_basic">小米活塞简装版</string>
+    <string name="dirac_headset_piston_2">小米活塞 2</string>
+    <string name="dirac_headset_piston_standard">小米活塞标准版</string>
+    <string name="dirac_headset_headphone">小米头戴式</string>
+    <string name="dirac_headset_piston_youth">小米活塞青春版</string>
+    <string name="dirac_headset_piston_color">小米活塞炫彩版</string>
+    <string name="dirac_headset_in_ear">小米圈铁</string>
+    <string name="dirac_headset_capsule">小米胶囊</string>
+    <string name="dirac_headset_in_ear_pro">小米圈铁 Pro</string>
+    <string name="dirac_headset_comfort">小米头戴轻松版</string>
+    <string name="dirac_headset_reduction_noise">小米降噪 typeC</string>
+    <string name="dirac_headset_cancelling">小米降噪 3.5mm</string>
+    <string name="dirac_headset_half_in_ear">小米半入耳式</string>
+    <string name="dirac_headset_in_ear2">小米圈铁 2</string>
+    <string name="dirac_headset_earphone_basic">小米耳机基本款</string>
+    <string name="dirac_headset_earphone">小米耳机</string>
     <!-- Dirac settings: Equalizer presets -->
     <string name="dirac_preset_default">默认</string>
-    <string name="dirac_preset_rock">Rock</string>
-    <string name="dirac_preset_jazz">Jazz</string>
-    <string name="dirac_preset_pop">Pop</string>
-    <string name="dirac_preset_classical">Classical</string>
+    <string name="dirac_preset_rock">摇滚</string>
+    <string name="dirac_preset_jazz">爵士</string>
+    <string name="dirac_preset_pop">响度</string>
+    <string name="dirac_preset_classical">古典</string>
     <string name="dirac_preset_hiphop">Hip Hop</string>
     <string name="dirac_preset_rb">R and B</string>
-    <string name="dirac_preset_electronic">Electronic</string>
-    <string name="dirac_preset_acoustic">Acoustic</string>
-    <string name="dirac_preset_dance">Dance</string>
-    <string name="dirac_preset_metal">Metal</string>
-    
+    <string name="dirac_preset_electronic">电子</string>
+    <string name="dirac_preset_acoustic">声学</string>
+    <string name="dirac_preset_dance">舞蹈</string>
+    <string name="dirac_preset_metal">金属</string>
     <!-- Ambient gesture haptic feedback -->
-    <string name="ambient_gesture_haptic_feedback">Haptic feedback</string>
-    <string name="ambient_gesture_haptic_feedback_summary">Vibrate when a Ambient gesture is detected</string>
-
+    <string name="ambient_gesture_haptic_feedback">振动反馈</string>
+    <string name="ambient_gesture_haptic_feedback_summary">当检测到息屏手势时振动手机</string>
     <!-- Ambient Display -->
     <string name="category_gesture">手势</string>
-    <string name="ambient_display_enable_title">Ambient display gestures</string>
-    <string name="ambient_display_enable_summary">Wake screen when you receive notifications</string>
-    <string name="ambient_display_gestures_title">Ambient display gestures</string>
-    <string name="ambient_display_gestures_summary">Additional gestures to wake the screen</string>
-    <string name="ambient_display_summary">Wake screen when you receive notifications</string>
-    <string name="ambient_display_summary_on">Screen will wake when you receive notifications</string>
-    <string name="ambient_display_summary_off">Screen will not wake when you receive notifications</string>
-
+    <string name="ambient_display_enable_title">息屏显示手势</string>
+    <string name="ambient_display_enable_summary">收到通知时唤醒屏幕</string>
+    <string name="ambient_display_gestures_title">息屏显示手势</string>
+    <string name="ambient_display_gestures_summary">使用额外的手势唤醒屏幕</string>
+    <string name="ambient_display_summary">收到通知时唤醒屏幕</string>
+    <string name="ambient_display_summary_on">收到通知时唤醒屏幕</string>
+    <string name="ambient_display_summary_off">收到通知时唤醒屏幕</string>
     <!-- Doze sensor -->
-    <string name="tilt_sensor_title">Tilt sensor</string>
-    <string name="pickup_sensor_title">Pickup sensor</string>
-    <string name="proximity_sensor_title">Proximity sensor</string>
-
+    <string name="tilt_sensor_title">倾斜传感器</string>
+    <string name="pickup_sensor_title">拾取传感器</string>
+    <string name="proximity_sensor_title">距离传感器</string>
     <!-- Hand wave gesture -->
-    <string name="hand_wave_gesture_title">Hand wave</string>
-    <string name="hand_wave_gesture_summary">Pulse notifications on hand wave</string>
-    <string name="hand_wave_gesture_flat_title">Detect orientation</string>
-    <string name="hand_wave_gesture_flat_summary">Pulse only if the phone is lying face up on a flat surface</string>
-
+    <string name="hand_wave_gesture_title">挥手</string>
+    <string name="hand_wave_gesture_summary">挥手时暂停所有通知</string>
+    <string name="hand_wave_gesture_flat_title">检测手势方向</string>
+    <string name="hand_wave_gesture_flat_summary">仅在手机平放时启用挥手手势</string>
     <!-- Pick-up gesture -->
-    <string name="pick_up_gesture_title">Pick-up</string>
-    <string name="pick_up_gesture_summary">Pulse notifications on pick-up</string>
-
+    <string name="pick_up_gesture_title">抬手手势</string>
+    <string name="pick_up_gesture_summary">拿起手机时暂停所有通知</string>
     <!-- Pocket gesture -->
-    <string name="pocket_gesture_title">Pocket</string>
-    <string name="pocket_gesture_summary">Pulse notifications on removal from pocket</string>
-
+    <string name="pocket_gesture_title">口袋手势</string>
+    <string name="pocket_gesture_summary">从口袋中取出时暂停所有通知</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Proximity wake</string>
-    <string name="proximity_wake_enable_title">Proximity wake</string>
-    <string name="proximity_wake_enable_summary">Wake device on hand wave</string>
-
+    <string name="proximity_wake_title">挥手唤醒</string>
+    <string name="proximity_wake_enable_title">挥手唤醒</string>
+    <string name="proximity_wake_enable_summary">挥手唤醒</string>
     <!-- MTK Engineering Mode -->
     <string name="engmode">工程模式</string>
     <string name="engmode_title">MTK 工程模式</string>
-    <string name="engmode_summary">Engineering Mode for mediatek SOCs. Network, debug and testing utils.</string>
-
+    <string name="engmode_summary">MTK芯片工程模式（网络,调试和测试工具）.</string>
     <!-- Codecs -->
-    <string name="codecs_title">Codecs</string>
-    <string name="codecs_summary">Codecs priority</string>
-    <string name="codecs_dialogTitle">Codecs priority</string>
+    <string name="codecs_title">编解码器</string>
+    <string name="codecs_summary">编解码器优先级</string>
+    <string name="codecs_dialogTitle">编解码器优先级</string>
     <string name="codecs_c2">Software C2</string>
     <string name="codecs_mtk">МТК HW</string>
     <string name="codecs_omx">Google OMX</string>
-
     <!-- Force 64 Mp -->
-    <string name="force64_title">强制64MP</string>
+    <string name="force64_title">强制 64MP</string>
     <string name="force64_summary">仅支持ANX相机</string>
     <string name="force64_dialogTitle">仅支持ANX相机</string>
-
     <!-- TCP Profiles -->
-    <string name="tcpcongestion_title">TCP Congestion</string>
-    <string name="tcpcongestion_summary">Transmission Control Protocol Congestion Algorithm</string>
-    <string name="tcpcongestion_dialogTitle">Choose your TCP Congestion Algorithm</string>
-
-    <string name="misc_title">Miscellaneous</string>
-
+    <string name="tcpcongestion_title">TCP 连接</string>
+    <string name="tcpcongestion_summary">Tcp 算法</string>
+    <string name="tcpcongestion_dialogTitle">选择您的 TCP 算法</string>
+    <string name="misc_title">其他</string>
     <!-- Values for TCP Presets -->
     <string name="tcpcongestion_westwood">westwood</string>
     <string name="tcpcongestion_cubic">cubic</string>
@@ -164,71 +141,56 @@
     <string name="tcpcongestion_illinois">illinois</string>
     <string name="tcpcongestion_htcp">htcp</string>
     <string name="tcpcongestion_bbr">bbr</string>
-
     <!-- WiFi Profiles -->
-    <string name="wifi80_title">MTK Wi-Fi Band</string>
-    <string name="wifi80_summary">Choose your Wi-Fi mode</string>
-    <string name="wifi80_dialogTitle">Choose your Wi-Fi mode</string>
-
+    <string name="wifi80_title">MTK Wi-Fi 频段</string>
+    <string name="wifi80_summary">选择您的 Wi-Fi 模式</string>
+    <string name="wifi80_dialogTitle">选择您的 Wi-Fi 模式</string>
     <!-- USB Charging -->
     <string name="usb_title">USB 充电</string>
     <string name="usb_summary">USB 充电开启900 mA</string>
     <string name="usb_dialogTitle">USB 充电开启900 mA</string>
-
     <!-- MI Thermal -->
-    <string name="thermal_title">Disable MI Thermal</string>
-    <string name="thermal_summary">It can improve performance but reduce device life.</string>
-    <string name="thermal_dialogTitle">It can improve performance but reduce device life.</string>
-
+    <string name="thermal_title">禁用小米温控</string>
+    <string name="thermal_summary">它可以提高性能，但会减少设备的使用寿命。</string>
+    <string name="thermal_dialogTitle">它可以提高性能，但会减少设备的使用寿命。</string>
     <!-- Values for WiFi Presets -->
-    <string name="wifi80_default">Default (20-40 MHz)</string>
-    <string name="wifi80_2">Only 2G -> 80 MHz</string>
-    <string name="wifi80_5">Only 5G -> 80 MHz</string>
+    <string name="wifi80_default">默认 (20-40 MHz)</string>
+    <string name="wifi80_2">仅2G -> 80 MHz</string>
+    <string name="wifi80_5">仅5G -> 80 MHz</string>
     <string name="wifi80_25">2G+5G -> 80 Mhz</string>
-
     <!-- SELinux -->
     <string name="selinux_title">SELinux 状态</string>
-    <string name="selinux_summary">Status of the SELinux security system</string>
-    <string name="selinux_dialogTitle">Status of the SELinux security system</string>
+    <string name="selinux_summary">SELinux安全系统的状态</string>
+    <string name="selinux_dialogTitle">SELinux安全系统的状态</string>
     <string name="selinux_enforcing">强制</string>
     <string name="selinux_permissive">宽容</string>
-
     <!-- FPS Info -->
-    <string name="fps_info_title">FPS Info Overlay</string>
-    <string name="fps_info_summary">Show current frames per second by overlay</string>
-
+    <string name="fps_info_title">帧率信息叠加层</string>
+    <string name="fps_info_summary">按叠加层显示当前帧数</string>
     <!-- V-SYNC -->
-    <string name="vsync_title">V-Sync</string>
-    <string name="vsync_summary">V-Sync Disabler(need reboot)</string>
-    <string name="vsync_dialogTitle">Vertical Synchronization (need reboot)</string>
+    <string name="vsync_title">垂直同步</string>
+    <string name="vsync_summary">V-Sync 禁用(需要重启)</string>
+    <string name="vsync_dialogTitle">垂直同步 (需要重启)</string>
     <string name="vsync_enabled">开启</string>
     <string name="vsync_disabled">关闭</string>
-
     <!-- latch_unsignaled -->
     <string name="latch_unsignaled_title">debug.sf.latch_unsignaled</string>
-    <string name="latch_unsignaled_summary">Affects the rendering of overlays</string>
-    <string name="latch_unsignaled_dialogTitle">Affects the rendering of overlays</string>
-
+    <string name="latch_unsignaled_summary">影响叠加层渲染</string>
+    <string name="latch_unsignaled_dialogTitle">影响叠加层渲染</string>
     <!-- PQ -->
-    <string name="pq_title">MTK PQ Service</string>
-    <string name="pq_summary">MTK sharping (need reboot)</string>
-    <string name="pq_dialogTitle">MTK sharping (need reboot)</string>
-
+    <string name="pq_title">MTK场景画质优化</string>
+    <string name="pq_summary">MTK场景画质优化(需要重启)</string>
+    <string name="pq_dialogTitle">MTK场景画质优化(需要重启)</string>
     <!-- HW Overlays -->
-    <string name="hw_overlays_title">Disable HW overlays</string>
-    <string name="hw_overlays_summary">Always use GPU for screen compositing</string>
-    <string name="hw_overlays_dialogTitle">Always use GPU for screen compositing</string>
-
+    <string name="hw_overlays_title">停用 HW 叠加层</string>
+    <string name="hw_overlays_summary">始终使用 GPU 进行屏幕合成</string>
+    <string name="hw_overlays_dialogTitle">始终使用 GPU 进行屏幕合成</string>
     <!-- Label for feature switch [CHAR LIMIT=30] -->
     <string name="switch_bar_on">开启</string>
-
     <!-- Label for feature switch [CHAR LIMIT=30] -->
     <string name="switch_bar_off">关闭</string>
-
     <!-- Device specific settings -->
     <string name="device_settings_app_name">高级设置</string>
-    
     <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac 声音</string>
-
 </resources>
