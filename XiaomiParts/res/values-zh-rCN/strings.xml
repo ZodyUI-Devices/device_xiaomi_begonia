@@ -14,6 +14,33 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Miku Parts-->
+    <string name="ambient_display_enable_title">什么时候显示通知？</string>
+    <!-- Pickup sensor-->
+    <string name="pickup_sensor_title">抬手传感器Desu</string>
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">距离传感器Desu</string>
+    <string name="hand_wave_gesture_title">对着屏幕挥手的时候</string>
+    <string name="hand_wave_gesture_summary">对着屏幕挥一下手就可以显示通知！That is Magic！</string>
+    <!-- Pocket gesture -->
+    <string name="pick_up_gesture_title">拿起手机的时候</string>
+    <string name="pick_up_gesture_summary">拿起手机的时候就能显示通知，感觉已经是烂大街的功能了呢</string>
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">从口袋里拿出来的时候</string>
+    <string name="pocket_gesture_summary">从口袋里把手机拿出来就可以显示通知呢，赞！</string>
+
+    <!-- Thermal -->
+    <string name="thermal_title">性能调整</string>
+    <string name="thermal_summary">想让你的Begonia燃起来吗！？</string>
+    <string name="thermal_dialogTitle">它可以提高性能，但会减少设备的使用寿命</string>
+    <string name="spectrum_battery">这个超级省电诶 (1k)</string>
+    <string name="spectrum_balance">那就看看视频吧 (10k)</string>
+    <string name="spectrum_smooth">来斗地主叭！ (100k)</string>
+    <string name="spectrum_game">Timi~ (200k)</string>
+    <string name="spectrum_powerful">一起来原神锄大地吧 (1m)</string>
+    <string name="spectrum_spowerful">锄大地Plus (10m)</string>
+
+    <!-- Other Parts -->
     <string name="advanced_settings">BegoniaParts</string>
     <string name="advanced_settings_summary">设备特定的自定义</string>
     <string name="display_title">显示</string>
@@ -30,13 +57,6 @@
     <string name="spectrum_title">性能调整</string>
     <string name="spectrum_summary">选择调度</string>
     <string name="spectrum_dialogTitle">选择调度</string>
-    <!-- Values for Spectrum Presets -->
-    <string name="spectrum_battery">省电 (1k)</string>
-    <string name="spectrum_balance">均衡 (10k)</string>
-    <string name="spectrum_smooth">流畅 (100k)</string>
-    <string name="spectrum_game">游戏 (200k)</string>
-    <string name="spectrum_powerful">性能 (1m)</string>
-    <string name="spectrum_spowerful">极速 (10m)</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">默认</string>
@@ -87,7 +107,6 @@
     <string name="ambient_gesture_haptic_feedback_summary">当检测到息屏手势时振动手机</string>
     <!-- Ambient Display -->
     <string name="category_gesture">手势</string>
-    <string name="ambient_display_enable_title">息屏显示手势</string>
     <string name="ambient_display_enable_summary">收到通知时唤醒屏幕</string>
     <string name="ambient_display_gestures_title">息屏显示手势</string>
     <string name="ambient_display_gestures_summary">使用额外的手势唤醒屏幕</string>
@@ -96,19 +115,9 @@
     <string name="ambient_display_summary_off">收到通知时唤醒屏幕</string>
     <!-- Doze sensor -->
     <string name="tilt_sensor_title">倾斜传感器</string>
-    <string name="pickup_sensor_title">拾取传感器</string>
-    <string name="proximity_sensor_title">距离传感器</string>
     <!-- Hand wave gesture -->
-    <string name="hand_wave_gesture_title">挥手</string>
-    <string name="hand_wave_gesture_summary">挥手时暂停所有通知</string>
     <string name="hand_wave_gesture_flat_title">检测手势方向</string>
     <string name="hand_wave_gesture_flat_summary">仅在手机平放时启用挥手手势</string>
-    <!-- Pick-up gesture -->
-    <string name="pick_up_gesture_title">抬手手势</string>
-    <string name="pick_up_gesture_summary">拿起手机时暂停所有通知</string>
-    <!-- Pocket gesture -->
-    <string name="pocket_gesture_title">口袋手势</string>
-    <string name="pocket_gesture_summary">从口袋中取出时暂停所有通知</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">挥手唤醒</string>
     <string name="proximity_wake_enable_title">挥手唤醒</string>
@@ -149,10 +158,6 @@
     <string name="usb_title">USB 充电</string>
     <string name="usb_summary">USB 充电开启900 mA</string>
     <string name="usb_dialogTitle">USB 充电开启900 mA</string>
-    <!-- MI Thermal -->
-    <string name="thermal_title">禁用小米温控</string>
-    <string name="thermal_summary">它可以提高性能，但会减少设备的使用寿命。</string>
-    <string name="thermal_dialogTitle">它可以提高性能，但会减少设备的使用寿命。</string>
     <!-- Values for WiFi Presets -->
     <string name="wifi80_default">默认 (20-40 MHz)</string>
     <string name="wifi80_2">仅2G -> 80 MHz</string>
