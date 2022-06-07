@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/miku_begonia.mk
+    $(LOCAL_DIR)/zody_begonia.mk
 
 COMMON_LUNCH_CHOICES := \
-    miku_begonia-user \
-    miku_begonia-userdebug \
-    miku_begonia-eng
+    zody_begonia-user \
+    zody_begonia-userdebug \
+    zody_begonia-eng

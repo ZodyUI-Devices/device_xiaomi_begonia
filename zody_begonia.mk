@@ -16,8 +16,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Inherit from begonia device
 $(call inherit-product, device/xiaomi/begonia/device.mk)
 
-# Inherit some common Miku UI stuff
-$(call inherit-product, vendor/miku/build/product/miku_product.mk)
+# Inherit some common Zody UI stuff
+$(call inherit-product, vendor/miku/config/common.mk)
 
 # Inherit some extras stuff
 $(call inherit-product, vendor/v4afx/config.mk)
@@ -39,15 +39,13 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
 TARGET_BOOTANIMATION_HALF_RES := true
 
-# Miku UI
-MIKU_MASTER := wzwzx
-MIKU_GAPPS := true
+# Zody UI
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_SUPPORTS_QUICK_TAP  := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := miku_begonia
+PRODUCT_NAME := zody_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
