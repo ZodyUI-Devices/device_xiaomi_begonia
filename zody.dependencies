@@ -1,14 +1,14 @@
 [
   {
-    "repository" : "PixelPlusUI-Devices/kernel_xiaomi_mt6785",
+    "repository" : "ZodyUI-Devices/kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785",
-    "branch": "twelve",
+    "branch": "sense",
     "remote": "github
   },
   {
-    "repository" : "wzwzx/vendor_xiaomi_begonia",
+    "repository" : "ZodyUI-Devices/vendor_xiaomi_begonia",
     "target_path": "vendor/xiaomi/begonia",
-    "branch": "twelve",
+    "branch": "sense",
     "remote": "github"
   },
   {
@@ -18,15 +18,9 @@
     "remote": "github"
   },
   {
-    "repository" : "wzwzx/vendor_xiaomi_begonia-ims",
+    "repository" : "ZodyUI-Devices/vendor_xiaomi_begonia-ims",
     "target_path": "vendor/xiaomi/begonia-ims",
-    "branch": "twelve",
-    "remote": "github"
-  },
-  {
-    "repository" : "7Soldier/vendor_gcambsg",
-    "target_path": "vendor/gcambsg",
-    "branch": "twelve",
+    "branch": "sense",
     "remote": "github"
   },
   {
@@ -48,9 +42,9 @@
     "remote": "github"
   },
   {
-    "repository" : "wzwzx/vendor_xiaomi_begonia-firmware",
+    "repository" : "ZodyUI-devices/vendor_xiaomi_begonia-firmware",
     "target_path": "vendor/xiaomi/begonia-firmware",
-    "branch": "twelve",
+    "branch": "sense",
     "remote": "github"
   }
 ]
