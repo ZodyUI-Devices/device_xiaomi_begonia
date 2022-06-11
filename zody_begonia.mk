@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/xiaomi/begonia/device.mk)
 
 # Inherit some common Zody UI stuff
-$(call inherit-product, vendor/miku/config/common.mk)
+$(call inherit-product, vendor/zody/config/common.mk)
 
 # Inherit some extras stuff
 $(call inherit-product, vendor/v4afx/config.mk)
